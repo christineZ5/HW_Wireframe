@@ -1,58 +1,97 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CSS Practice</title>
-    <!-- Link to your external CSS -->
+:root
+{
+    /*Define color scheme */
+    --color-gray      :#aaa;
+    --color-dark-gray :#777777;
+    --color-light-gray:#ebebeb;
 
-</head>
-<body>
+}
+html {
+    margin : 0;
+    padding: 0;
+}
 
-    <!-- Center -->
-    <h1>The Wonders of CSS!</h1>
+    header { 
+        background: #ebebeb;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 10px;
+        height: 20px;
 
-    <hr>
-
-    <h2>Fun With Text!</h2>
-
-    <!-- Change text color -->
-    <p>This text is red.</p>
-    <p>This text is blue.</p>
-    <p>This text is green.</p>
-
-    <!-- Change font-size -->
-    <p>This text is BIG!</p>
-    <p>This text is tiny...</p>
-
-    <!-- Center -->
-    <p>~~This text is centered~~</p>
-
-    <!-- Bold -->
-    <p>If we have something important to say, we can make it bold!</p>
-
-    <!-- Change font -->
-    <p>We can even change our font-family if we are feeling creative!</p>
-
-    <!-- Multiple attributes -->
-    <p>Try combining multiple attributes to make big, orange, bold text!</p>
-
-    <hr>
-
-    <!-- Classes -->
-    <p class="styledFont">We can also apply the same style to multiple HTML elements.</p>
-    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
-    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
-    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
-    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
-    <p class="styledFont">Notice how every time you change the class styledFont, all of the text changes.</p>
-
-    <hr>
-
-    <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
-
-    <!-- Border & id -->
-    <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
-
-    <hr>
-
-</body>
-</html>
+}
+        body {
+            font-family: "Arial", "Helvetica", sans-serif;
+            color: #777777;
+            background: #777777;
+            width: 960px;
+            font-size: 18px;
+        
+}
+        body *:hover {
+            transform : scale(1.02);
+            transition: all 0.2s;
+                
+    
+}
+        
+        nav {
+            text-align: center;
+            background: #ebebeb;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 10px;
+            
+}
+        
+        section {
+            background: #ebebeb;
+            width: 495px;
+            text-align: center;
+            float: left;
+            padding-top: 04%;
+            margin-left: 10px;
+ }
+        
+            article {
+                color: #ebebeb;
+                background: #777;
+                text-align: center;
+                padding: 10px 30px 30px 30px;
+                margin: 20px;
+}
+        
+            h1 {
+                color: #777;
+                background: #ebebeb;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+ }
+        
+            p {
+                color: #777;
+                background: #ebebeb;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+        aside {
+            background: #ebebeb;
+            text-align: center;
+            float: right;
+            width: 432px;
+            height: 272px;
+            padding-top: 34px;
+            margin-right: 10px;
+}
+        
+        footer {
+            clear: both;
+            text-align: center;
+            background: #ebebeb;
+            padding-top: 20px;
+            padding-bottom: 20px; 
+            margin: 335px 10px 0px 10px; 
+}
+        
